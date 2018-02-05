@@ -2,11 +2,25 @@
 
 var fgSprite : Sprite;
 var bgSprite : Sprite;
-var locked : boolean = false;
+//is the card selectable by the player
+var locked : boolean;
 
 function Start () {
-	
+
+	GetComponent(SpriteRenderer).sprite = bgSprite;
 }
+
+function Remove(){
+
+	Destroy(gameObject);
+}
+
+//this function will return a string value
+function GetFg() : String{
+
+	return GetComponent(SpriteRenderer).sprite.name;
+}
+
 
 function ShowForeground () {
 
