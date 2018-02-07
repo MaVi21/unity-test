@@ -499,7 +499,7 @@ MonoBehaviour:
     - {fileID: 530727140}
     SpeedRatio: 0.289
     RepositionLogic:
-      PositionMode: 4
+      PositionMode: 1
       ScaleHeight: 0
       SortingOrder: 0
       MinYPercent: 0
